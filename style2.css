@@ -1,0 +1,316 @@
+body{
+    font: 16px arial, sans-serif;
+    background-color: rgb(228, 228, 221);
+
+}
+
+.container {
+    width: 100px;
+    margin: 0 auto;
+    background-color: rgb(87, 85, 78);
+    color: rgb(18, 18, 26);
+}
+
+.container a{
+  background-color: rgb(209, 205, 206);
+}
+
+.header {
+    padding: 15px;
+     text-align: center;
+}
+
+.judul {
+    font-size: 30px;
+    font-weight: bold;
+   
+}
+
+.judul:hover {
+    color: rgb(224, 217, 219);
+    text-decoration: underline;
+}
+
+.header ul li {
+    display: inline-block;
+    margin-top:10px ;
+    margin-right: 10px;
+    font-size: 15px;
+}
+
+.gambar {
+    background-image: url(gmbrsya1.jpg);
+    height: 700px;
+    background-size: cover;
+    background-position: 0 -90px;
+
+}
+
+
+.header a{
+    text-decoration: none;
+    color: rgb(29, 28, 23);
+    padding: 5px;
+}
+
+.header a:hover {
+    background-color: rgb(214, 216, 205);
+
+}
+
+.home-section {
+  padding: 40px 30px;
+  background-color: #d3d4cb;
+  text-align: center;
+}
+
+.home-section h2 {
+  font-size: 28px;
+  color: #69c29d;
+  margin-bottom: 20px;
+}
+
+.home-section p {
+  font-size: 15px;
+  color: #333;
+  max-width: 700px;
+  margin: 10px auto;
+  line-height: 1.6;
+}
+
+.hero-image {
+  width: 500px;
+  max-width: 400px;
+  border-radius: 20px;
+  margin: 15px 0;
+  box-shadow: 0 3px 8px rgba(0,0,0,0.2);
+
+
+}
+
+.profile-section {
+  padding: 20px;
+  max-width: 900px;
+  margin: auto;
+}
+
+.container {
+    width: 100px;
+    margin: 0 auto;
+    background-color: rgb(221, 219, 210);
+    color: rgb(18, 18, 26);
+}
+.profile-card {
+  display: flex;
+  padding: 50px;
+  border-radius: 15px;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+.profile-card img {
+  width: 200px;
+  height: auto;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+.profile-info {
+  flex: 1;
+}
+.profile-info h2 {
+  font-size: 25px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  transition: color 0.1s ease;
+}
+
+.profile-info h2:hover {
+  color: #5fd7e7; 
+}
+
+.profile-info h2 {
+    text-decoration: none;
+  margin-top: 0;
+  color: #186b46;
+}
+
+
+.gallery-section {
+  padding: 20px;
+  max-width: 1000px;
+  margin: auto;
+  text-align: center;
+}
+
+.gallery-title {
+  margin-bottom: 20px;
+  color: #2d6a4f;
+}
+
+
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 15px;
+  padding: 0 20px;
+  justify-items: center;
+}
+
+.gallery-grid img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+  transition: transform 0.3s;
+}
+
+.gallery-grid img:hover {
+  transform: scale(1.05);
+}
+
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #e1e6e2;
+  color: #000;
+}
+
+.container {
+  width: 800px;
+  margin: o auto;
+}
+
+.header {
+  background-color: #a2d5a2;
+  padding: 20px;
+  text-align: center;
+}
+
+.judul {
+  margin: 0;
+  font-size: 32px;
+  
+}
+
+.nav {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 20px;
+}
+
+.nav li a {
+  text-decoration: none;
+  color: #000;
+  font-weight: bold;
+}
+
+.nav li a:hover {
+  color: white;
+  background-color: #436143;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.news-section {
+  padding: 20px;
+  max-width: 900px;
+  margin: auto;
+}
+
+.news-item {
+  display: flex;
+  
+  margin-bottom: 20px;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.news-item img {
+  width: 180px;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-right: 20px;
+}
+
+.news-content h3 {
+  color: #141718;
+  margin-top: 0;
+  font-size: 20px;
+}
+
+.news-content h3:hover {
+  color: #79e079; 
+}
+
+.readmore {
+  display: inline-block;
+  margin-top: 10px;
+  color: #2d6a4f;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.news-detail {
+  display: none;
+  margin-top: 10px;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+input[type="checkbox"]:checked + .readmore + .news-detail {
+  display: block;
+}
+
+
+.footer {
+  background-color: #bdc9c4;
+  text-align: center;
+  color: rgb(32, 24, 24);
+  padding: 15px;
+  height: 15;
+  font-size: 15px;
+  
+}
+
+.video-section {
+  padding: 40px 20px;
+  text-align: center;
+  background-color: #cfd1c8;
+}
+
+.video-section h2 {
+  font-size: 20px;
+  margin-bottom: 20px;
+  color: #14532d;
+}
+
+.video-wrapper {
+  max-width: 500px;
+  margin: auto;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+.video-wrapper video {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.video-section p {
+  font-size: 15px;
+  margin-top: 20px;
+  color: #595c4d;
+}
+
+
+
+
